@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const app = require('../app');
+const app = require('../app'); // Import the Express app
 const http = require('http');
 
 // Get port from environment and store in Express.
