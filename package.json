@@ -2,9 +2,12 @@
   "name": "insta",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://amitkojha05.github.io/instaclone",
   "scripts": {
-    "start": "node ./bin/www"
-    
+    "start": "node ./bin/www",
+    "build": "echo 'No build step required'",
+    "dev": "nodemon ./bin/www",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
